@@ -1,0 +1,17 @@
+import{_ as s,o as a,c as n,b as e}from"./app.a4e6ddd5.js";const g=JSON.parse('{"title":"\u901A\u8FC7 Git \u66F4\u65B0","description":"","frontmatter":{},"headers":[{"level":2,"title":"\u66F4\u65B0\u4EE3\u7801","slug":"\u66F4\u65B0\u4EE3\u7801"},{"level":2,"title":"\u66F4\u65B0\u65F6\u989D\u5916\u53EF\u80FD\u4F1A\u7528\u5230\u7684\u547D\u4EE4","slug":"\u66F4\u65B0\u65F6\u989D\u5916\u53EF\u80FD\u4F1A\u7528\u5230\u7684\u547D\u4EE4"}],"relativePath":"development/update-by-git.md","lastUpdated":1661048569000}'),l={name:"development/update-by-git.md"},t=e(`<h1 id="\u901A\u8FC7-git-\u66F4\u65B0" tabindex="-1">\u901A\u8FC7 Git \u66F4\u65B0 <a class="header-anchor" href="#\u901A\u8FC7-git-\u66F4\u65B0" aria-hidden="true">#</a></h1><p>\u6211\u4EEC\u63A8\u8350\u60A8\u4F7F\u7528 Git \u7BA1\u7406\u7CFB\u7EDF\u7684\u4EE3\u7801\uFF0C\u8FD9\u662F\u76EE\u524D\u4E16\u754C\u4E0A\u6700\u597D\u7684\u7248\u672C\u7BA1\u7406\u5DE5\u5177\uFF0C\u6CA1\u6709\u4E4B\u4E00\u3002</p><p>\u9664\u4E86\u4E0B\u9762\u7684\u547D\u4EE4\uFF0C\u53EF\u80FD\u56FE\u5F62\u5316\u7684\u754C\u9762\u4E5F\u9002\u5408\u60A8\uFF0C\u4F8B\u5982\uFF1A<code>SourceTree</code></p><h2 id="\u66F4\u65B0\u4EE3\u7801" tabindex="-1">\u66F4\u65B0\u4EE3\u7801 <a class="header-anchor" href="#\u66F4\u65B0\u4EE3\u7801" aria-hidden="true">#</a></h2><div class="language-shell"><span class="copy"></span><pre><code><span class="line"><span style="color:#676E95;font-style:italic;"># \u4FDD\u5B58\u5DE5\u4F5C\u73B0\u573A\uFF08\u5C06\u76EE\u524D\u8FD8\u4E0D\u60F3\u63D0\u4EA4\u7684\u4F46\u662F\u5DF2\u7ECF\u4FEE\u6539\u7684\u4EE3\u7801\u4FDD\u5B58\u81F3\u5806\u6808\u4E2D\uFF09</span></span>
+<span class="line"><span style="color:#A6ACCD;">git stash</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#676E95;font-style:italic;"># \u4ECE\u8FDC\u7A0B\u4ED3\u5E93\u83B7\u53D6\u6700\u65B0\u4EE3\u7801\u5E76\u81EA\u52A8\u5408\u5E76\u5230\u672C\u5730</span></span>
+<span class="line"><span style="color:#A6ACCD;">git pull</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#676E95;font-style:italic;"># \u6062\u590D\u5DE5\u4F5C\u73B0\u573A</span></span>
+<span class="line"><span style="color:#A6ACCD;">git stash pop</span></span>
+<span class="line"></span></code></pre></div><h2 id="\u66F4\u65B0\u65F6\u989D\u5916\u53EF\u80FD\u4F1A\u7528\u5230\u7684\u547D\u4EE4" tabindex="-1">\u66F4\u65B0\u65F6\u989D\u5916\u53EF\u80FD\u4F1A\u7528\u5230\u7684\u547D\u4EE4 <a class="header-anchor" href="#\u66F4\u65B0\u65F6\u989D\u5916\u53EF\u80FD\u4F1A\u7528\u5230\u7684\u547D\u4EE4" aria-hidden="true">#</a></h2><div class="language-shell"><span class="copy"></span><pre><code><span class="line"><span style="color:#676E95;font-style:italic;"># \u67E5\u770B\u8FDC\u7A0B\u4ED3\u5E93\u4FE1\u606F</span></span>
+<span class="line"><span style="color:#A6ACCD;">git remote -v</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#676E95;font-style:italic;"># \u67E5\u770B stash \u961F\u5217</span></span>
+<span class="line"><span style="color:#A6ACCD;">git stash list</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#676E95;font-style:italic;"># \u6E05\u7A7A stash \u961F\u5217</span></span>
+<span class="line"><span style="color:#A6ACCD;">git stash clear</span></span>
+<span class="line"></span></code></pre></div>`,7),p=[t];function i(c,o,r,d,h,_){return a(),n("div",null,p)}var u=s(l,[["render",i]]);export{g as __pageData,u as default};
